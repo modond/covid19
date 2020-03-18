@@ -96,8 +96,20 @@ npm install npm@latest -g
 2. Clone the repo
 ```sh
 git clone git@github.com:nthopinion/covid19.git
+
 ```
-3. Install NPM packages
+3. Then locally go to you directory
+```sh
+cd covid19
+
+```
+4. There are 2 repositories you need to install, the client and the api. So first we install the client by going to the client directory
+
+```sh
+cd client
+
+```
+4. Install NPM packages
 ```sh
 npm install
 ```
@@ -111,6 +123,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+
+<TODO: How to install the api repo
 
 <!-- TEST
 TODO: Add more to the testing workflow: how to write a test, where, etc.
